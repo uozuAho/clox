@@ -13,6 +13,11 @@ TARGET := $(BUILD_DIR)/clox
 
 all: $(TARGET)
 
+build: $(TARGET)
+
+run: $(TARGET)
+	@./$(TARGET)
+
 $(TARGET): $(OBJ_FILES)
 	$(CC) $(OBJ_FILES) -o $@ $(LDFLAGS)
 
