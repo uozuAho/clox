@@ -6,3 +6,6 @@ Written following https://craftinginterpreters.com/a-bytecode-virtual-machine.ht
 ```sh
 make run
 ```
+
+# To do
+- WIP: https://craftinginterpreters.com/chunks-of-bytecode.html#line-information
