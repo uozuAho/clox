@@ -19,13 +19,14 @@ run: $(TARGET)
 	@./$(TARGET)
 
 $(TARGET): $(OBJ_FILES)
-	$(CC) $(OBJ_FILES) -o $@ $(LDFLAGS)
+	@echo "linking..."
+	@$(CC) $(OBJ_FILES) -o $@ $(LDFLAGS)
 
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 	@mkdir -p $(BUILD_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(BUILD_DIR)
+	@rm -rf $(BUILD_DIR)
 
 .PHONY: all clean
