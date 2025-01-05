@@ -8,4 +8,4 @@ make run
 ```
 
 # To do
-- WIP: https://craftinginterpreters.com/a-virtual-machine.html
+- WIP: https://craftinginterpreters.com/scanning-on-demand.html
