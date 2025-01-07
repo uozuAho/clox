@@ -8,4 +8,4 @@ make run
 ```
 
 # To do
-- WIP: https://craftinginterpreters.com/scanning-on-demand.html#a-lexical-grammar-for-lox
+- WIP: https://craftinginterpreters.com/compiling-expressions.html
