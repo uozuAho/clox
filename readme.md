@@ -8,4 +8,4 @@ make run
 ```
 
 # To do
-- WIP: https://craftinginterpreters.com/compiling-expressions.html#parsers-for-tokens
+- WIP: https://craftinginterpreters.com/compiling-expressions.html#dumping-chunks
