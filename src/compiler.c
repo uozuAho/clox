@@ -122,6 +122,7 @@ static void endCompiler() {
     emitReturn();
 #ifdef DEBUG_PRINT_CODE
     if (!parser.hadError) {
+        printf("offs line op\n");
         disassembleChunk(currentChunk(), "program");
         printf("-----\n");
     }
