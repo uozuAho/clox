@@ -7,5 +7,10 @@ Written following https://craftinginterpreters.com/a-bytecode-virtual-machine.ht
 make run
 ```
 
+# Notes
+- scanner: chars to tokens
+- compiler: tokens to bytecode
+- vm: run bytecode
+
 # To do
 - WIP: https://craftinginterpreters.com/types-of-values.html#two-new-types
