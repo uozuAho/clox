@@ -13,4 +13,4 @@ make run
 - vm: run bytecode
 
 # To do
-- WIP: https://craftinginterpreters.com/types-of-values.html#two-new-types
+- WIP: https://craftinginterpreters.com/strings.html
