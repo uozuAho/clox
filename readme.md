@@ -22,4 +22,4 @@ Not done yet, but keeping some notes:
 See https://craftinginterpreters.com/strings.html#freeing-objects
 
 # To do
-- WIP: https://craftinginterpreters.com/hash-tables.html
+- WIP: https://craftinginterpreters.com/global-variables.html
